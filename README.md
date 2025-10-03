@@ -15,7 +15,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-![Retno Kusbianto](https://github.com/retno-kusbianto/Retno-Kusbianto/blob/main/github-header-banner.png)
+![Retno Kusbianto](https://github.com/retno-kusbianto/Retno-Kusbianto/blob/main/github-header-banner%20(1).png)
 
 - 🌱 I’m Currently Learning :
     - Python Dasar → Lanjut → OOP
