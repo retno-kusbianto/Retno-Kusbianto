@@ -1,4 +1,4 @@
-## Hallo World! I'm Retno Kusbianto 👋
+## Hallo World! 👋
 
 <!--
 **retno-kusbianto/Retno-Kusbianto** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
