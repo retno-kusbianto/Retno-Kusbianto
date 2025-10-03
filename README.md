@@ -1,4 +1,4 @@
-## Hi there 👋
+## Hallo World! I'm Retno Kusbianto 👋
 
 <!--
 **retno-kusbianto/Retno-Kusbianto** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -14,3 +14,12 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+![Retno Kusbianto](https://github.com/retno-kusbianto/Retno-Kusbianto/blob/main/github-header-banner.png)
+
+- 🌱 I’m Currently Learning :
+    - Python Dasar → Lanjut → OOP
+    - SQL (Dasar → Lanjutan)
+    - Streamlit (Membangun Aplikasi Web Untuk Eco-Tech)
+    - Flask REST API (Backend Untuk Kalkulator Karbon & Sistem Inventori)
+    - Data Pipeline & AI Model Integration
