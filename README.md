@@ -22,5 +22,5 @@
 ##### My Github Stats
 
 
-![Retno's GitHub stats](https://github-readme-stats.vercel.app/api?username=retno-kusbianto&show_icons=true&theme=default)
+![Retno's GitHub stats](https://github-readme-stats.vercel.app/api?username=retno-kusbianto&show_icons=true&theme=github_dark)
 
