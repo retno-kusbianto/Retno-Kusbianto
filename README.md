@@ -24,3 +24,4 @@
 
 ![Retno's GitHub stats](https://github-readme-stats.vercel.app/api?username=retno-kusbianto&show_icons=true&theme=github_dark)
 
+![snake gif](https://github.com/retno-kusbianto/retno-kusbianto/blob/output/github-snake-dark.svg)
