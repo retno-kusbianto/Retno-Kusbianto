@@ -1,9 +1,41 @@
-###
+# 📦 GitHub Actions Workflow: Generate Pacman Animation
+# Workflow ini akan membuat animasi Pacman berdasarkan aktivitas kontribusi GitHub.
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/maurodesouza/maurodesouza/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/maurodesouza/maurodesouza/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/maurodesouza/maurodesouza/output/pacman-contribution-graph.svg">
-</picture>
+name: Generate pacman animation
 
-###
+on:
+  # Jalankan otomatis setiap 12 jam
+  schedule:
+    - cron: "0 */12 * * *"
+  # Bisa dijalankan manual lewat GitHub Actions UI
+  workflow_dispatch:
+  # Atau setiap kali ada push ke branch main
+  push:
+    branches:
+      - main
+
+jobs:
+  generate:
+    # Izin menulis hasil ke repo
+    permissions:
+      contents: write
+    # Jalankan di Ubuntu
+    runs-on: ubuntu-latest
+    # Batasi waktu maksimal 5 menit
+    timeout-minutes: 5
+
+    steps:
+      # 1️⃣ Generate file animasi Pacman (SVG)
+      - name: Generate pacman-contribution-graph.svg
+        uses: abozanona/pacman-contribution-graph@main
+        with:
+          github_user_name: ${{ github.repository_owner }}
+
+      # 2️⃣ Upload hasil ke branch "output"
+      - name: Push pacman-contribution-graph.svg to output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
