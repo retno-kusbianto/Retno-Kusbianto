@@ -25,3 +25,9 @@
 ![Retno's GitHub stats](https://github-readme-stats.vercel.app/api?username=retno-kusbianto&show_icons=true&theme=github_dark)
 
 ![snake gif](https://github.com/retno-kusbianto/retno-kusbianto/blob/output/github-snake-dark.svg)
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/maurodesouza/maurodesouza/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/maurodesouza/maurodesouza/output/pacman-contribution-graph.svg">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/maurodesouza/maurodesouza/output/pacman-contribution-graph.svg">
+</picture>
